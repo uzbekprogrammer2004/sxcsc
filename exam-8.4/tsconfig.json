@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "card/card.jsx",
+    "api/interseptors.js",
+    "components/filter.jsx",
+    "components/footer.jsx",
+    "components/header.jsx",
+    "helpers/auth-helpers.js",
+    "service/auth.js",
+    "service/config.js",
+    "service/korzina.js",
+    "service/like.js",
+    "service/product.js",
+    "app/about/page.jsx",
+    "app/contacts/page.jsx",
+    "app/korzina/page.jsx",
+    "app/like/page.jsx",
+    "app/news/page.jsx",
+    "app/payment-delivery/page.jsx",
+    "app/products/page.jsx"
+, "app/layout.jsx", "app/page.jsx"  ],
+  "exclude": ["node_modules"]
+}
